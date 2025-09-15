@@ -259,7 +259,7 @@ final class Plugin {
 		}, 10, 0 );
 		/** ! END DEBUG ! */
 
-		\do_action( 'gpb/loaded', $this );
+		\do_action( 'gpb/initialized', $this );
 	}
 
 	/** Getters */

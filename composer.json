@@ -1,0 +1,20 @@
+{
+	"name": "gnistdesign/plugin-boilerplate",
+	"type": "wordpress-plugin",
+	"keywords": [
+		"WordPress",
+		"Plugins"
+	],
+	"minimum-stability": "stable",
+	"prefer-stable" : true,
+	"license": "GPL-3.0-or-later",
+	"require": {},
+	"require-dev": {
+		"gnistdesign/gdcs": "^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Gnist\\PluginBoilerplate\\": "src/"
+		}
+	}
+}

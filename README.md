@@ -14,7 +14,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 A simple boilerplate for the next awesome plugin.
 
-__RUN `composer install` when you start the project.___
+__RUN `composer install` when you start the project__
 
 ## Installation
 

@@ -11,7 +11,7 @@
  * @copyright  2025 Gnist Design AS
  * @license    GPLv3 or later
  * @link       https://gnistdesign.no
- * @since      1.0
+ * @since      1.0.0
  *
  * @wordpress-plugin
  * Plugin Name:       Plugin Boilerplate
@@ -19,7 +19,7 @@
  * Description:       A simple boilerplate for the next awesome plugin
  * Author:            The Gnist Coding Team
  * Author URI:        https://gnistdesign.no
- * Version:           1.0
+ * Version:           1.0.0
  * Requires at least: 6.8
  * Tested up to:      6.8
  * Requires PHP:      8.3
@@ -65,7 +65,7 @@ if ( ! function_exists( 'gpb' ) ) {
 		$plugin = Plugin::get_instance(
 			[
 				'file'    => __FILE__,
-				'version' => '1.0',
+				'version' => '1.0.0',
 				'domain'  => 'plugin-boilerplate',
 			]
 		);

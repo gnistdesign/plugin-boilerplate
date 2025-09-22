@@ -6,7 +6,7 @@
  *
  * @package    WordPress
  * @subpackage PluginBoilerplate
- * @since      1.0
+ * @since      1.0.0
  */
 
 declare( strict_types = 1 );

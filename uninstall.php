@@ -15,7 +15,7 @@
  * @package    WordPress
  * @subpackage PluginBoilerplate
  * @copyright  2025 Gnist Design AS
- * @since      1.0
+ * @since      1.0.0
  */
 
 declare( strict_types = 1 );

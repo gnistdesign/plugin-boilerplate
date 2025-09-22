@@ -6,7 +6,7 @@
  *
  * @package    WordPress
  * @subpackage PluginBoilerplate
- * @since      1.0
+ * @since      1.0.0
  */
 
 declare( strict_types = 1 );
@@ -83,7 +83,7 @@ final class Plugin {
 	 * @return void
 	 */
 	public function __clone() {
-		\_doing_it_wrong( __FUNCTION__, \esc_html__( 'Cheatin&#8217; huh?', $this->config()->get( 'domain' ) ), '1.0' );
+		\_doing_it_wrong( __FUNCTION__, \esc_html__( 'Cheatin&#8217; huh?', 'plugin-boilerplate' ), '1.0.0' );
 	}
 
 	/**
@@ -92,7 +92,7 @@ final class Plugin {
 	 * @return void
 	 */
 	public function __wakeup() {
-		\_doing_it_wrong( __FUNCTION__, \esc_html__( 'Cheatin&#8217; huh?', $this->config()->get( 'domain' ) ), '1.0' );
+		\_doing_it_wrong( __FUNCTION__, \esc_html__( 'Cheatin&#8217; huh?', 'plugin-boilerplate' ), '1.0.0' );
 	}
 
 	/**

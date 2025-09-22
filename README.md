@@ -6,7 +6,7 @@ Tags: boilerplate, psr4
 Requires at least: 6.8  
 Tested up to: 6.8  
 Requires PHP: 8.3  
-Stable tag: 1.0  
+Stable tag: 1.0.0  
 License: GPLv3 or later  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -37,7 +37,7 @@ Automatic updates should work smoothly, but we still recommend you back up your 
 
 ## Changelog
 
-### 1.0 [15.09.2025]
+### 1.0.0 [15.09.2025]
 
 * Initial release of the plugin.
 

@@ -1,3 +1,6 @@
+# ExampleClass.php
+
+```php
 <?php
 /**
  * ExampleClass Class.
@@ -42,3 +45,4 @@ class ExampleClass extends Loader {
 
 	/** Filters */
 }
+```

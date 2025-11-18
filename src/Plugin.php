@@ -135,7 +135,7 @@ final class Plugin {
 		$config->set( 'capability', "manage_{$config->get( 'prefix' )}" );
 		$config->set( 'environment', \wp_get_environment_type() );
 		$config->set( 'debug', defined( 'WP_DEBUG' ) && true === WP_DEBUG );
-		$config->set( 'assets_version', true === $config->get( 'debug' ) ? time() : $config->get( 'version' ) );
+		$config->set( 'assets_version', true === (bool) $config->get( 'debug' ) ? time() : $config->get( 'version' ) );
 
 		// File & base.
 		$config->set( 'basename', \plugin_basename( $config->get( 'file' ) ) );
